@@ -1,0 +1,32 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  highlight_level: NONE
+  text: |-
+    class Vehicle {
+
+        protected String licensePlate;
+
+        public Vehicle(String licensePlate) {
+            this.licensePlate = licensePlate;
+        }
+    }
+
+    class Car extends Vehicle {
+
+        protected int numberOfSeats;
+
+        public Car(String licensePlate, int numberOfSeats) {
+            super(licensePlate);
+            this.numberOfSeats = numberOfSeats;
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3004#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 02 Jun 2023 04:00:47 UTC"
+record: -1
+submission_language: java17
